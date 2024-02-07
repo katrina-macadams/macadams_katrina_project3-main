@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Grid</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <main>
+
+    <header class="grid-con" id="main_header">
+
+        <h2 class="hidden">Nav</h2>
+        <div id="main_logo" class="box col-start-1 col-span-3"> Logo </div>
+
+      
+        <nav id="main_nav" class="box col-start-4 col-span-full"> Navigation </nav>
+
+    </header>
+
+<section class="grid-con">
+
+    <h2 class="hidden">hero image</h2>
+    <div id="hero_image" class="col-span-full box"> Hero Image </div>
+
+</section>
+
+<section id="products" class="grid-con">
+
+    <h2 class="hidden">Products</h2>
+    <div id="product_1" class="box col-span-4 m-col-span-6 l-col-span-6"> Product 1 </div>
+
+    <div id="product_2" class="box col-span-4 m-col-span-6 l-col-start-7 l-col-span-6"> Product 2 </div>
+
+</section>
+
+<section id="services" class="grid-con">
+
+    <h2 class="hidden">Services</h2>
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 1</div>  
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 2</div>
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 3</div>
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 4</div>
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 5</div>
+    <div id="image" class="box l-col-span-6">Image</div>
+    <div class="box col-span-2 m-col-span-4 l-col-span-3">Service 6</div>
+
+</section>
+
+</main>
+
+<footer class="grid-con">
+
+    <div id="footer" class="box col-span-full">Footer</div>
+
+</footer>
+
+
+</body>
+
+</html>
